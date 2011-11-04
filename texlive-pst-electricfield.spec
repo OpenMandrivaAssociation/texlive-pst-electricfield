@@ -61,6 +61,7 @@ charges which can be placed in a cartesian coordinate system by
 %doc %{_texmfdistdir}/source/generic/pst-electricfield/Makefile
 %doc %{_texmfdistdir}/source/generic/pst-electricfield/Makefile.latex
 %doc %{_texmfdistdir}/source/generic/pst-electricfield/Makefile.pst2pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -71,3 +72,5 @@ charges which can be placed in a cartesian coordinate system by
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
