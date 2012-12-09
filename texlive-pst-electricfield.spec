@@ -61,3 +61,17 @@ charges which can be placed in a cartesian coordinate system by
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.14-2
++ Revision: 755265
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.14-1
++ Revision: 719344
+- texlive-pst-electricfield
+- texlive-pst-electricfield
+- texlive-pst-electricfield
+- texlive-pst-electricfield
+
