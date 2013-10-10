@@ -1,12 +1,12 @@
-# revision 21864
+# revision 29803
 # category Package
 # catalog-ctan /graphics/pstricks/contrib/pst-electricfield
-# catalog-date 2011-03-28 22:21:58 +0200
+# catalog-date 2012-06-17 01:47:14 +0200
 # catalog-license lppl
 # catalog-version 0.14
 Name:		texlive-pst-electricfield
 Version:	0.14
-Release:	2
+Release:	3
 Summary:	Draw electric field and equipotential lines with PStricks
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-electricfield
@@ -61,17 +61,3 @@ charges which can be placed in a cartesian coordinate system by
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.14-2
-+ Revision: 755265
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.14-1
-+ Revision: 719344
-- texlive-pst-electricfield
-- texlive-pst-electricfield
-- texlive-pst-electricfield
-- texlive-pst-electricfield
-
