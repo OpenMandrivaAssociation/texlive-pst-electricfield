@@ -6,7 +6,7 @@
 # catalog-version 0.14
 Name:		texlive-pst-electricfield
 Version:	0.14
-Release:	5
+Release:	6
 Summary:	Draw electric field and equipotential lines with PStricks
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-electricfield
